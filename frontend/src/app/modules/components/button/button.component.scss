@@ -1,0 +1,12 @@
+@import "../../../../dist/variables.scss";
+
+.btn{
+  width: 250px;
+  height: 51px;
+  color: $text-color-primary;
+  background-color: $btn-danger;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer
+}

@@ -1,0 +1,73 @@
+@import "../../../../dist/variables.scss";
+
+.container{
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.list-container{
+  width: 400px;
+  min-height: 350px;
+  background-color: $background-color-secondary;
+}
+
+.task-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.task-container{
+  & p{
+    width: 270px;
+    color: $text-color-secondary
+  }
+}
+
+.new-task-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  & .new-task{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: $text-color-primary;
+    background-color: $background-color-primary;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: -1.5rem;
+    &::placeholder{
+      color: $text-color-primary;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.thrash{
+  cursor: pointer
+}
+
+input{
+  &[type="checkbox"]{
+    cursor: pointer
+  }
+}
+
+.active{
+  text-decoration: line-through;
+}

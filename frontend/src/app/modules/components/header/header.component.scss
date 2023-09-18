@@ -1,0 +1,16 @@
+@import "../../../../dist/variables.scss";
+
+.header-container{
+  background-color: $background-color-primary;
+  text-align: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header{
+  color: $text-color-primary;
+}
